@@ -1,7 +1,20 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.handler.W3CActions;
+import org.testng.annotations.Test;
+
 public class Trial {
+    
+    WebDriver demo;
 
     @Test
     public void prnt(){
         System.out.println("This is the first class");
+
+        System.setProperty("webdriver.gecko.driver","C:\\Users\\Proxes\\Downloads\\JAVABuildTools\\chromedriver_win32\\chromedriver.exe");
+        demo = new ChromeDriver();
+        demo.get("https://www.reddywoundservices.com");
+        demo.manage().window().maximize();
     }
 }
+
