@@ -1,0 +1,7 @@
+public class Trial {
+
+    @Test
+    public void prnt(){
+        System.out.println("This is the first class");
+    }
+}
