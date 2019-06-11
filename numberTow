@@ -1,0 +1,8 @@
+public class new {
+
+  public void mayfirst(){
+  
+  System.out.println("This should be a failed code.")
+  
+  }
+}
